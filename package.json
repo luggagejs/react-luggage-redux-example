@@ -1,0 +1,27 @@
+{
+  "name": "react-luggage-redux-example",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://luggagejs.github.io/react-luggage-redux-example",
+  "dependencies": {
+    "luggage": "luggagejs/luggage#2.1.1",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-luggage-redux": "file:../react-luggage-redux",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "git-hooks": "^1.1.8",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
