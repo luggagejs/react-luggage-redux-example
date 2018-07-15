@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { luggageReducer } from 'react-luggage-redux'
+import { luggageReducer } from '@luggage/react-luggage-redux'
 
 const todoApp = combineReducers({
   luggage: luggageReducer

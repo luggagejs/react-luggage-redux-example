@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { fetchCollection, addRecord } from 'react-luggage-redux'
+import { fetchCollection, addRecord } from '@luggage/react-luggage-redux'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
