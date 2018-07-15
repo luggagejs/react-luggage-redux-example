@@ -9,7 +9,8 @@ import App from './App'
 const store = createStore(
   reducer,
   applyMiddleware(luggageMiddleware({
-    apiKey: 'tqx0ze13xl6vawf'
+    apiKey: 'tqx0ze13xl6vawf',
+    redirectUrl: '/react-luggage-redux-example'
   }))
 )
 
